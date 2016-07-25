@@ -1,0 +1,3 @@
+//Stream是个抽象的接口,Node中有很多对象实现了这个接口,
+//例如，对http 服务器发起请求的request 对象就是一个 Stream，还有stdout（标准输出）。
+//当然所有的stream都是eventEmitter的实例
